@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ЗНОуВ - волонтерська освітня ініціатива</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="top-information__inner">
+            <ul class="top-information flexbox">
+                <li class="top-information__btn">
+                    <button class="project_support_btn">підтримати проект</button>
+                </li>
+                <li class="top-information__logo">
+                    <img class="logo" src="./img/logo-full.png" alt="лого ЗНОвУ">
+                </li>
+                <li class="top-information__social">
+                    <ul class="social_icons flexbox">
+                        <li class="social_icon__fb">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0ZM16 5H13.8182C11.8099 5 10.1818 6.567 10.1818 8.5V10.6H8V13.4H10.1818V19H13.0909V13.4H15.2727L16 10.6H13.0909V8.5C13.0909 8.1134 13.4165 7.8 13.8182 7.8H16V5Z" fill="#4D4D4D"/>
+                            </svg>
+                        </li>
+                        <li class="social_icon__tw">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0ZM13.8341 6.19709C12.7164 6.64538 11.984 7.77925 12 9.03631V9.70506C9.72861 9.76695 7.57856 8.62969 6.27273 6.67561C6.27273 6.67561 3.72727 12.6944 9.45455 15.3694C8.14397 16.3043 6.58274 16.773 5 16.7069C10.7273 20.0506 17.7273 16.7069 17.7273 9.01624C17.7267 8.82997 17.7096 8.64415 17.6764 8.46118C18.3258 7.78808 18.7842 6.93824 19 6.00686C18.3906 6.45859 17.7159 6.80409 17.0018 7.03005C16.2168 6.08145 14.9517 5.7488 13.8341 6.19709Z" fill="#4D4D4D"/>
+                            </svg>
+                        </li>
+                        <li class="social_icon__ins">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0ZM14.9531 5.25H9.04688C6.94992 5.25 5.25 6.94992 5.25 9.04688V14.9531C5.25 17.0501 6.94992 18.75 9.04688 18.75H14.9531C17.0501 18.75 18.75 17.0501 18.75 14.9531V9.04688C18.75 6.94992 17.0501 5.25 14.9531 5.25ZM14.9531 6.51562C16.3511 6.51562 17.4844 7.64888 17.4844 9.04688V14.9531C17.4844 16.3511 16.3511 17.4844 14.9531 17.4844H9.04688C7.64888 17.4844 6.51562 16.3511 6.51562 14.9531V9.04688C6.51562 7.64888 7.64888 6.51562 9.04688 6.51562H14.9531ZM12 8.20312C9.90308 8.20312 8.20312 9.90308 8.20312 12C8.20312 14.0969 9.90308 15.7969 12 15.7969C14.0969 15.7969 15.7969 14.0969 15.7969 12C15.7969 9.90308 14.0969 8.20312 12 8.20312ZM12 9.46875C13.398 9.46875 14.5312 10.602 14.5312 12C14.5312 13.398 13.398 14.5312 12 14.5312C10.602 14.5312 9.46875 13.398 9.46875 12C9.46875 10.602 10.602 9.46875 12 9.46875ZM15.5941 7.56217C15.1281 7.56217 14.7503 7.93987 14.7503 8.40592C14.7503 8.8719 15.1281 9.24967 15.5941 9.24967C16.0601 9.24967 16.4378 8.8719 16.4378 8.40592C16.4378 7.93987 16.0601 7.56217 15.5941 7.56217Z" fill="#4D4D4D"/>
+                            </svg>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <nav class="navigation">
+            <ul class="menu flexbox">
+                <li class="menu-item">Про нас</li>
+                <li class="menu-item">Вчителям</li>
+                <li class="menu-item">Події</li>
+                <li class="menu-item">Корисне</li>
+                <li class="menu-item">Підтримати</li>
+                <li class="menu-item">Контакти</li>
+            </ul>
+            <div class="lang_panel">
+                <ul class="lang flexbox">
+                    <li class="lang_ua link--active">ua</li>
+                    <li class="lang_divider">|</li>
+                    <li class="lang_en">en</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero_middle flexbox">
+                <div class="hero_middle__left">
+                    <h1>Безоплатні онлайн заняття з підготовки до ЗНО </h1>
+                    <p class="hero_text">Живе спілкування в маленьких групах для учнів 9-11 класів, що проживають на тимчасово окупованих територіях</p>
+                    <button class="btn_register">Зареєструватись</button>
+                </div>
+                <div class="hero_middle__right">
+                    <img src="./img/undraw_font_re_efri.svg" alt="ЗНОвУ">
+                </div>
+            </div>
+        </section>
+        <section class="attainment">
+            <div class="attainment_data flexbox">
+                <div class="attainment__number_app">
+                    <h2 class="att_title">500+</h2>
+                    <span class="att_text">Кількість заявок</span>
+                </div>
+                <div class="attainment__number_students">
+                    <h2 class="att_title">160+</h2>
+                    <span class="att_text">Кількість учнів</span>
+                </div>
+                <div class="attainment__number_teachers">
+                    <h2 class="att_title">50+</h2>
+                    <span class="att_text">Кількість викладачів</span>
+                </div>
+            </div>
+        </section>
+        <section class="interesting_wrapper">
+            <div class="interesting flexbox">
+                <div class="interesting_title">
+                    <svg width="124" height="3" viewBox="0 0 124 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="1.31134e-07" y1="1.5" x2="41.3333" y2="1.5" stroke="#0093B4" stroke-width="3"/>
+                        <line x1="41.333" y1="1.5" x2="82.6663" y2="1.49999" stroke="#87C346" stroke-width="3"/>
+                        <line x1="82.667" y1="1.5" x2="124" y2="1.49999" stroke="#F3B04E" stroke-width="3"/>
+                    </svg>
+                    <h2 class="int_title">Чим ми цікаві?</h2>
+                </div>
+                <div class="interesting_text">
+                    <p>Волонтерська освітня ініціатива, яка має на меті допомогти учням з тимчасово окупованих і прифронтових територій, ВПО та іншим категоріям учнів готуватися до ЗНО та НМТ. В деяких випадках це можуть бути люди, які закінчили школу декілька років назад, але хочуть спробувати вступити в вищі навчальні заклади.</p>
+                    <p>Волонтерська освітня ініціатива, яка має на меті допомогти учням з тимчасово окупованих і прифронтових територій, ВПО та іншим категоріям учнів готуватися до ЗНО та НМТ. В деяких випадках це можуть бути люди, які закінчили школу декілька років назад, але хочуть спробувати вступити в вищі навчальні заклади.</p>
+                </div>
+            </div>
+        </section>
+        <section class="values_wrapper">
+            <div class="values">
+                <div class="values_header">
+                    <div class="values_line">
+                        <svg width="124" height="3" viewBox="0 0 124 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="1.31134e-07" y1="1.5" x2="41.3333" y2="1.5" stroke="#0093B4" stroke-width="3"/>
+                            <line x1="41.333" y1="1.5" x2="82.6663" y2="1.49999" stroke="#87C346" stroke-width="3"/>
+                            <line x1="82.667" y1="1.5" x2="124" y2="1.49999" stroke="#F3B04E" stroke-width="3"/>
+                        </svg>
+                    </div>
+                    <h2 class="values_title">Наші цінності</h2>
+                </div>
+
+                <ul class="values_cards flexbox">
+                    <li class="values_card flexbox">
+                        <div class="values_figure">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0C7.16344 0 0 7.16344 0 16C0 24.8366 7.16344 32 16 32Z" fill="#0093B4"/>
+                            </svg>
+                        </div>
+                        <div class="values_figure">
+                            <h3>Branding Identity</h3>
+                            <p>We make logo and concept for your brand needs.</p>
+                        </div>
+                    </li>
+                    <li class="values_card flexbox">
+                        <div class="values_figure">
+                            <svg width="28" height="32" viewBox="0 0 28 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M14 0L27.8564 8V24L14 32L0.143594 24V8L14 0Z" fill="#FAAD13"/>
+                            </svg>
+                        </div>
+                        <div class="values_figure">
+                            <h3>Development</h3>
+                            <p>We code your apps, website and dashboard to you.</p>
+                        </div>
+                    </li>
+                    <li class="values_card flexbox">
+                        <div class="values_figure">
+                            <svg width="32" height="29" viewBox="0 0 32 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M16 0L31.2169 11.0557L25.4046 28.9443H6.59544L0.783096 11.0557L16 0Z" fill="#3F598A"/>
+                            </svg>
+                        </div>
+                        <div class="values_figure">
+                            <h3>UI/UX Design</h3>
+                            <p>Making beautifull and intuitive design digital product.</p>
+                        </div>
+                    </li>
+                    <li class="values_card flexbox">
+                        <div class="values_figure">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="32" height="32" rx="6" fill="#87C346"/>
+                            </svg>
+                        </div>
+                        <div class="values_figure">
+                            <h3>Microstock</h3>
+                            <p>We produce million asset for your business needs.</p>
+                        </div>
+                    </li>
+                    <li class="values_card flexbox">
+                        <div class="values_figure">
+                            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M13.2111 1.57771C13.9482 0.10361 16.0518 0.103612 16.7889 1.57771L29.5528 27.1056C30.2177 28.4354 29.2507 30 27.7639 30H2.23607C0.749305 30 -0.217687 28.4354 0.447214 27.1056L13.2111 1.57771Z" fill="#195EC1"/>
+                            </svg>
+                        </div>
+                        <div class="values_figure">
+                            <h3>Social Media</h3>
+                            <p>Planning and maintenance social media for reach audience.</p>
+                        </div>
+                    </li>
+                    <li class="values_card flexbox">
+                        <div class="values_figure">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M16 0L32 16L16 32L0 16L16 0Z" fill="#E95432"/>
+                            </svg>
+                        </div>
+                        <div class="values_figure">
+                            <h3>Research</h3>
+                            <p>Helping research startup or brand to business needs.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="for-whom_wrapper">
+            <div class="for-whom flexbox">
+                <div class="for-whom_text">                
+                    <div class="for-whom_title">
+                        <svg width="124" height="3" viewBox="0 0 124 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="1.31134e-07" y1="1.5" x2="41.3333" y2="1.5" stroke="#0093B4" stroke-width="3"/>
+                            <line x1="41.333" y1="1.5" x2="82.6663" y2="1.49999" stroke="#87C346" stroke-width="3"/>
+                            <line x1="82.667" y1="1.5" x2="124" y2="1.49999" stroke="#F3B04E" stroke-width="3"/>
+                        </svg>
+                        <h2 class="for-whom__title">Для кого?</h2>
+                        <p>Учні 10-11 класів, а також молоді люди до 30 років</p>
+                        <p>Відбір учнів для участі в проєкті відбувається в такому порядку:</p>
+                        <ul class="for-whom_list">
+                            <li>учні, що проживають на тимчасово окупованих територіях України;</li>
+                            <li>внутрішньо переміщенні особи;</li>
+                            <li>учні, що виїхали за кордон через війну і хочуть повернутися в Україну;</li>
+                            <li>учні з малозабезпечених та/або багатодітних родин;</li>
+                            <li>інші категорії.</li>
+                        </ul>
+                    </div>
+                </div>
+                    <img class="for-whom_img" src="./img/for-whom_img.png" alt="Для кого?">
+            </div>
+        </section>
+        <section class="easy-zno_wrapper">
+            <div class="easy-zno">
+                <div class="easy-zno_title">
+                    <svg width="124" height="3" viewBox="0 0 124 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="1.31134e-07" y1="1.5" x2="41.3333" y2="1.5" stroke="#0093B4" stroke-width="3"/>
+                        <line x1="41.333" y1="1.5" x2="82.6663" y2="1.49999" stroke="#87C346" stroke-width="3"/>
+                        <line x1="82.667" y1="1.5" x2="124" y2="1.49999" stroke="#F3B04E" stroke-width="3"/>
+                    </svg>
+                    <h2 class="easy-zno__title">ЗНО - це легко!</h2>
+                </div>
+                <div  class="easy-zno_list flexbox">
+                    <div class="easy-zno_num">
+                        <div class="easy-zno_list-item">
+                            <span class="easy-zno_list-item_num">1</span>
+                        </div>
+                        <div class="easy-zno_list-item">
+                            <span class="easy-zno_list-item_num">2</span>
+                        </div>
+                        <div class="easy-zno_list-item">
+                            <span class="easy-zno_list-item_num">3</span>
+                        </div>
+                    </div>
+                    <div class="easy-zno_text">
+                        <div class="easy-zno_text-item">
+                            <h3 class="easy-zno_text_title">Заповнити анкету через кнопку реєстрації на сайті</h3>
+                            <p>With a team of highly experienced designers, we have done it carefully and simply. The components work together to create a beautiful landing. It is essential template for designers</p>
+                        </div>
+                        <div class="easy-zno_text-item">
+                            <h3 class="easy-zno_text_title">Заповнити анкету через кнопку реєстрації на сайті</h3>
+                            <p>With a team of highly experienced designers, we have done it carefully and simply. The components work together to create a beautiful landing. It is essential template for designers</p>
+                        </div>
+                        <div class="easy-zno_text-item">
+                            <h3 class="easy-zno_text_title">Заповнити анкету через кнопку реєстрації на сайті</h3>
+                            <p>With a team of highly experienced designers, we have done it carefully and simply. The components work together to create a beautiful landing. It is essential template for designers</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="easy-zno_img">
+                    <img src="./img/easy-zno_img.svg" alt="easy-zno">
+                </div>
+            </div>
+        </section>
+        <section class="successful-future_wrapper">
+            <h3 class="successful-future_title">Почніть будувати своє успішне майбутнє разом з нами</h3>
+            <div class="successful-future">
+                <button class="successful-future_btn">Зареєструватись</button>
+            </div>
+        </section>
+        <section class="reviews_wrapper">
+            <div class="reviews_header">
+                <div class="reviews_line">
+                    <svg width="124" height="3" viewBox="0 0 124 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="1.31134e-07" y1="1.5" x2="41.3333" y2="1.5" stroke="#0093B4" stroke-width="3"/>
+                        <line x1="41.333" y1="1.5" x2="82.6663" y2="1.49999" stroke="#87C346" stroke-width="3"/>
+                        <line x1="82.667" y1="1.5" x2="124" y2="1.49999" stroke="#F3B04E" stroke-width="3"/>
+                    </svg>
+                </div>
+                <h2 class="reviews_title">Відгуки</h2>
+            </div>
+            <div class="reviews_users_text flexbox">
+                <div class="reviews_users flexbox">
+                    <div class="reviews_user">
+                        <img src="./img/user-1.png" alt="user icon">
+                    </div>
+                    <div class="reviews_user pink">
+                        <div class="reviews_user_no-icon">C</div>
+                    </div>
+                    <div class="reviews_user">
+                        <img src="./img/user-3.png" alt="user icon">
+                    </div>
+                    <div class="reviews_user">
+                        <img src="./img/user-4.png" alt="user icon">
+                    </div>
+                    <div class="reviews_user">
+                        <img src="./img/user-5.png" alt="user icon">
+                    </div>
+                    <div class="reviews_user yellow">
+                        <div class="reviews_user_no-icon">O</div>
+                    </div>
+                    <div class="reviews_user green">
+                        <div class="reviews_user_no-icon">M</div>
+                    </div>
+                    <div class="reviews_user">
+                        <img src="./img/user-8.png" alt="user icon">
+                    </div>
+                    <div class="reviews_user">
+                        <img src="./img/user-9.png" alt="user icon">
+                    </div>
+                </div>
+                <div class="reviews_user_answer-text">
+                    <span>“The investor in my head was someone who wore a suit and a tie. Leadhub changed that for me.”</span>
+                    <div class="reviews_user_answer flexbox">
+                        <div class="reviews_user_answer__icon">
+                            <div class="reviews_user_answer__name">M</div>
+                        </div>
+                        <ul>
+                            <li class="review_user_answer__pr">Студентка</li>
+                            <li class="review_user_answer__name">Марина</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="team_wrapper">
+            <div class="team_header">
+                <div class="team_line">
+                    <svg width="124" height="3" viewBox="0 0 124 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="1.31134e-07" y1="1.5" x2="41.3333" y2="1.5" stroke="#0093B4" stroke-width="3"/>
+                        <line x1="41.333" y1="1.5" x2="82.6663" y2="1.49999" stroke="#87C346" stroke-width="3"/>
+                        <line x1="82.667" y1="1.5" x2="124" y2="1.49999" stroke="#F3B04E" stroke-width="3"/>
+                    </svg>
+                </div>
+                <h2 class="team_title">Наша команда</h2>
+            </div>
+            <div class="team">
+                <ul class="team-members flexbox">
+                    <li class="team-member">
+                        <img src="./img/team-member1.png" alt="team-member">
+                        <div class="team-member_name">Наталія</div>
+                        <div class="team-member_pr">Викладач</div>
+                    </li>
+                    <li class="team-member">
+                        <img src="./img/team-member2.png" alt="team-member">
+                        <div class="team-member_name">Наталія</div>
+                        <div class="team-member_pr">Викладач</div>
+                    </li>
+                    <li class="team-member">
+                        <img src="./img/team-member3.png" alt="team-member">
+                        <div class="team-member_name">Наталія</div>
+                        <div class="team-member_pr">Викладач</div>
+                    </li>
+                    <li class="team-member">
+                        <img src="./img/team-member4.png" alt="team-member">
+                        <div class="team-member_name">Наталія</div>
+                        <div class="team-member_pr">Викладач</div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="partners flexbox">
+            <div class="partners_wrapper flexbox">
+                <div class="partners_left">
+                    <div class="partners_line">
+                        <svg width="124" height="3" viewBox="0 0 124 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="1.31134e-07" y1="1.5" x2="41.3333" y2="1.5" stroke="#0093B4" stroke-width="3"/>
+                            <line x1="41.333" y1="1.5" x2="82.6663" y2="1.49999" stroke="#87C346" stroke-width="3"/>
+                            <line x1="82.667" y1="1.5" x2="124" y2="1.49999" stroke="#F3B04E" stroke-width="3"/>
+                        </svg>
+                    </div>
+                    <h2 class="partners_title">Наші партнери</h2>
+                    <div class="partners_text">
+                        <p>Волонтерська ініціатива, заснована молодими викладачами. Ми хочемо щоб усі учні мали доступ до якісної освіти та можливостей незалежно від території проживання. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="partners_brands">
+                <ul class="partners_brands_list flexbox">
+                    <li class="partners_brands_list-item">brand</li>
+                    <li class="partners_brands_list-item">brand</li>
+                    <li class="partners_brands_list-item">brand</li>
+                    <li class="partners_brands_list-item">brand</li>
+                    <li class="partners_brands_list-item">brand</li>
+                </ul>
+            </div>
+        </section>
+        <section class="blog">
+            <div class="blog_wrapper">
+                <div class="blog_header">
+                    <div class="blog_line">
+                        <svg width="124" height="3" viewBox="0 0 124 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="1.31134e-07" y1="1.5" x2="41.3333" y2="1.5" stroke="#0093B4" stroke-width="3"/>
+                            <line x1="41.333" y1="1.5" x2="82.6663" y2="1.49999" stroke="#87C346" stroke-width="3"/>
+                            <line x1="82.667" y1="1.5" x2="124" y2="1.49999" stroke="#F3B04E" stroke-width="3"/>
+                        </svg>
+                    </div>
+                    <h2 class="blog_title">Блог: події, статті та інтерв’ю</h2>
+                </div>
+                <div class="blog_cards flexbox">
+                    <div  class="blog_card">
+                        <img class="blog_main-img" src="./img/blog-img-1.png" alt="blog_img">
+                        <div class="flexbox">
+                            <img class="blog_svg-icon" src="./img/blog-svg-1.svg" alt="svg icon">
+                            <h4 class="blog_card_title">Post headline goes here</h4>
+                        </div>
+                        
+                        <p class="blog_card_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="blog_card">
+                        <img class="blog_main-img" src="./img/blog-img-2.png" alt="blog_img">
+                        <div class="flexbox">
+                            <img class="blog_svg-icon" src="./img/blog-svg-2.svg" alt="svg icon">
+                            <h4 class="blog_card_title">Post headline goes here</h4>
+                        </div>
+                        <p class="blog_card_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="blog_card">
+                        <img class="blog_main-img" src="./img/blog-img-3.png" alt="blog_img">
+                        <div class="flexbox">
+                            <img class="blog_svg-icon" src="./img/blog-svg-3.svg" alt="svg icon">
+                            <h4 class="blog_card_title">Post headline goes here</h4>
+                        </div>
+                        <p class="blog_card_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                <div class="blog_btn-more">
+                    <button class="blog_btn">Дивитись всі</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer_wrapper flexbox">
+            <div class="logo_footer">
+                <img class="logo" src="./img/logo-full.png" alt="logo">
+            </div>
+            <div class="footer_nav">
+                <ul class="menu flexbox">
+                    <li class="menu-item">Про нас</li>
+                    <li class="menu-item">Вчителям</li>
+                    <li class="menu-item">Події</li>
+                    <li class="menu-item">Корисне</li>
+                    <li class="menu-item">Підтримати</li>
+                    <li class="menu-item">Контакти</li>
+                </ul>
+                <ul class="social-icon_footer flexbox">
+                    <li class="soc-icon_footer-item">
+                        <img src="./img/fb-footer-svg.svg" alt="social icon footer">
+                    </li>
+                    <li class="soc-icon_footer-item">
+                        <img src="./img/twittertw-footer-svg.svg" alt="social icon footer">
+                    </li>
+                    <li class="soc-icon_footer-item">
+                        <img src="./img/instagram-footer.svg" alt="social icon footer">
+                    </li>
+                </ul>
+            </div>
+            <div class="support_footer">
+                <p>Підтримати проект</p>
+                <button class="project_support_btn support_footer_btn">підтримати</button>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
