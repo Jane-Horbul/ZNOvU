@@ -1018,3 +1018,55 @@ padding-left: 112px;
     font-weight: 600;
     margin-bottom: 10px;
 }
+/*join-in*/
+.join-in {
+    background: var(--secondr-bg-color);
+    height: 420px;
+    margin-left: -10px;
+}
+.join-in_wrapper ul {
+    padding: 0;
+}
+.join-in_wrapper {
+    width: 1120px;
+    margin-left: 240px;
+    margin-right: auto;
+    padding-top: 70px;
+}
+.join-in-form h2 {
+    font-size: 40px;
+}
+.join-in-form {
+    margin-left: 105px;
+    margin-top: -30px;
+}
+.join-in-form-name-i {
+    border: 1px solid rgba(3, 6, 18, 0.2);
+    height: 44px;
+    border-radius: 6px;
+}
+
+.join-in-form_inp-fields {
+    margin-top: 70px;
+}
+.join-in-form_inp-name {
+    margin-right: 15px;
+}
+.join-in-form_inp-tel {
+    margin-right: 30px;
+}
+.join-in-form-name-l{
+    position: absolute;
+    margin-top: -20px;
+    font-size: 14px;
+}
+.join-in_btn {
+    width: 152px;
+    height: 44px;
+    background: var(--assent-color);
+    color: var(--hero-color);
+    border-radius: 8px;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+}
