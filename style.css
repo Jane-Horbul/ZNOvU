@@ -746,21 +746,23 @@ footer {
     margin-left: auto;
     margin-right: auto;
 }
-.create-projects-h {
+.create-projects-h, 
+.like-minded-team-h {
     background-color: var(--assent-color);
     width: 124px;
     height: 46px;
     border-radius: 8px;
     color: var(--bg-color);
     text-transform: uppercase;
-    padding: 15px;
+    padding: 12px 15px 15px 15px;
     text-align: center;
     margin-top: 65px;
     margin-bottom: 25px;
     margin-left: auto;
     margin-right: auto;
 }
-.create-projects-title {
+.create-projects-title,
+.like-minded-team-title {
     text-align: center;
     font-weight: 500;
     color: var(--main-text-color);
@@ -1069,4 +1071,13 @@ padding-left: 112px;
     border: none;
     font-weight: 500;
     font-size: 16px;
+}
+/*to-teachers*/
+.like-minded-team_wrapper {
+    width: 1090px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.like-minded-team-hero-item:nth-child(1) {
+    margin-right: 25px;
 }
