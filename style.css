@@ -14,6 +14,7 @@
     --white-color: #fff;
     --secondr-white-color: #F9F9F9;
     --btn-text-color: #2F3447;
+    --active-element:#23A098;
   }
 
 html {
@@ -70,8 +71,9 @@ html {
 .menu--main:hover {
     color: var(--assent-header-menu-color);
 }
-.menu--main:active {
-    font-weight: 500;
+.mm-active {
+    font-weight: 600;
+    color: var(--assent-header-menu-color);
 }
 .menu-footer {
     color: var(--white-color);
@@ -79,6 +81,72 @@ html {
 .menu-footer:hover {
     color: var(--main-text-color);
 }
+
+/*buttons*/
+.project_support_btn {
+    width: 220px;
+    height: 46px;
+    color: var(--white-color);
+    background: var(--assent-color);
+    border: none;
+    border-radius: 8px;
+    text-transform: uppercase;
+  }
+  .project_support_btn:hover {
+    background: var(--assent-header-menu-color);
+    transition:.25s;
+  }
+  .project_support_btn:active {
+    background: var(--active-element);
+    transition:.25s;
+  }
+
+  .become-student_white-btn {
+    width: 186px;
+    height: 56px;
+    font-size: 18px;
+    color: var(--third-assent-color);
+    background: var(--white-color);
+    border: 1px solid #F0F0F0;
+    border-radius: 8px;
+}
+.become-student_white-btn:hover {
+    color: var(--btn-text-color);
+    background: var(--white-color);
+    border: 1px solid #F0F0F0;
+    border-radius: 8px;
+    transition:.25s;
+}
+.become-student_white-btn:active {
+    background: #FF9A00;
+    transition:.25s;
+}
+
+  .btn_register {
+    width: 200px;
+    height: 52px;
+    color: var(--main-text-color);
+    background: var(--third-assent-color);
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    margin-top: 85px;
+}
+
+.blog_btn /*Дивитись всі*/ {
+    width: 200px;
+    height: 52px;
+    color: var(--main-text-color);
+    border: 1px solid var(--assent-color);
+    border-radius: 8px;
+    background: var(--white-color);
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
   /*top-information__inner*/
   .logo {
     width: 146px;
@@ -96,15 +164,7 @@ html {
     width: 128px;
   }
 
-  .project_support_btn {
-    width: 220px;
-    height: 46px;
-    color: var(--white-color);
-    background: var(--assent-color);
-    border: none;
-    border-radius: 8px;
-    text-transform: uppercase;
-  }
+
 
   /*nav*/
   .menu {
@@ -175,16 +235,7 @@ h1 {
     margin-top: 45px;
     margin-bottom: 0;
 }
-.btn_register {
-    width: 200px;
-    height: 52px;
-    color: var(--main-text-color);
-    background: var(--third-assent-color);
-    border: none;
-    border-radius: 8px;
-    font-size: 18px;
-    margin-top: 85px;
-}
+
 .hero_middle__right {
     margin-left: 600px;
     z-index: 1;
@@ -437,26 +488,7 @@ margin-bottom: 40px;
     margin-bottom: 50px;
     margin-top: 0px;
 }
-.become-student_white-btn {
-    width: 186px;
-    height: 56px;
-    font-size: 18px;
-    color: var(--third-assent-color);
-    background: var(--white-color);
-    border: 1px solid #F0F0F0;
-    border-radius: 8px;
-}
-.become-student_white-btn:hover {
-    color: var(--btn-text-color);
-    background: var(--white-color);
-    border: 1px solid #F0F0F0;
-    border-radius: 8px;
-    transition:.25s;
-}
-.become-student_white-btn:active {
-    background: #FF9A00;
-    transition:.25s;
-}
+
 .successful-future-img {
     position: absolute;
     margin-left: 330px;
@@ -699,19 +731,7 @@ margin-top: 135px;
   margin-left: -5px;
   margin-right: 5px;
 }
-.blog_btn {
-    width: 200px;
-    height: 52px;
-    color: var(--main-text-color);
-    border: 1px solid var(--assent-color);
-    border-radius: 8px;
-    background: var(--white-color);
-    font-weight: 500;
-    font-size: 18px;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 .blog_btn-more {
     display: flex;
     width: 1310px;
