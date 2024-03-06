@@ -1307,7 +1307,7 @@ padding-left: 112px;
   }
   .htc-icon {
     margin-right: 20px;
-  margin-top: 8px;
+    margin-top: 8px;
   }
   .htc-social-icons {
     margin-top: 70px;
@@ -1317,4 +1317,32 @@ padding-left: 112px;
   }
   .htc-social-icons-item {
     margin-right: 30px;
+  }
+  .htc-support {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1090px;
+    text-align: center;
+    margin-top: 170px;
+    margin-bottom: 160px;
+  }
+  .htc-liqpay {
+    width: 365px;
+    height: 52px;
+    background: #FF424D;
+    color: var(--white-color);
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 65px;
+    margin-bottom: 35px;
+    padding-top: 8px;
+  }
+  .htc-liqpay-img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    margin-bottom: 115px;
   }
