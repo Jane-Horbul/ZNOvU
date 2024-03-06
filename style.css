@@ -810,9 +810,8 @@ color: var(--main-text-color);
     width: 1090px;
     margin-left: auto;
     margin-right: auto;
-}
-.create-projects-h, 
-.like-minded-team-h {
+} 
+.page-header-name {
     background-color: var(--assent-color);
     width: 124px;
     height: 46px;
