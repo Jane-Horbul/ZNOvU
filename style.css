@@ -163,8 +163,41 @@ html {
     margin-top: 6px;
     width: 128px;
   }
+/*page-header-name*/
+  .page-header-name {/*кнопка з назвою сторінки*/
+    background-color: var(--assent-color);
+    width: 124px;
+    height: 46px;
+    border-radius: 8px;
+    color: var(--white-color);
+    text-transform: uppercase;
+    padding: 12px 15px 15px 15px;
+    text-align: center;
+    margin-top: 65px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-
+.page-header-name-title {
+    text-align: center;
+    font-weight: 500;
+    color: var(--main-text-color);
+    font-size: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 65px;
+}
+.page-header-name_wrapper{
+    width: 1090px;
+    margin-left: auto;
+    margin-right: auto;
+} 
+.page-header-name_wrapper {
+    width: 1030px;
+    margin-left: auto;
+    margin-right: auto;
+} 
 
   /*nav*/
   .menu {
@@ -806,36 +839,7 @@ color: var(--main-text-color);
 }
 
 /*ABOUT*/
-.create-projects_wrapper {
-    width: 1090px;
-    margin-left: auto;
-    margin-right: auto;
-} 
-.page-header-name {
-    background-color: var(--assent-color);
-    width: 124px;
-    height: 46px;
-    border-radius: 8px;
-    color: var(--white-color);
-    text-transform: uppercase;
-    padding: 12px 15px 15px 15px;
-    text-align: center;
-    margin-top: 65px;
-    margin-bottom: 25px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.create-projects-title,
-.like-minded-team-title {
-    text-align: center;
-    font-weight: 500;
-    color: var(--main-text-color);
-    font-size: 30px;
-    width: 605px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 65px;
-}
+
 .create-projects-img {
     width: 1090px;
     border-radius: 4px;
@@ -1158,4 +1162,28 @@ padding-left: 112px;
 .to-teachers-att,
 .our-teachers_wrapper {
     margin-bottom: 150px;
+}
+
+/*how-to-contact*/
+.how-to-contact {
+    display: block;
+    border: 0;
+    margin: 0;
+    padding: 35px 0 35px 0;
+    height: 620px;
+    background: var(--assent-color);
+    margin-left: -10px;
+    margin-bottom: -10px;
+    color: var(--main-text-color);
+    font-weight: 500;
+}
+.how-to-contact_wrapper {
+    width: 1110px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 150px;
+}
+.htc-contacts-title {
+    font-weight: 700;
+    font-size: 30px;
 }
