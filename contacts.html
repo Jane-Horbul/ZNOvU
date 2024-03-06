@@ -95,26 +95,56 @@
                 <div class="htc-contacts">
                     <h2 class="htc-contacts-title">Як зв’язатися</h2>
                     <p class="htc-contacts-text">Заповніть форму, і наша команда зв’яжеться з вами протягом 24 годин</p>
-                    <ul>
-                        <li>(050) 939-57-83</li>
-                        <li>hello.carrotlabs@gmail.com</li>
-                        <li>Київ, Україна</li>
+                    <ul class="htc-list">
+                        <li class="htc-list-item flexbox">
+                            <div class="htc-icon">
+                                <img src="./img/contacts/tel.svg" alt="номер телефону">
+                            </div>
+                            <div>(050) 939-57-83</div>
+                        </li>
+                        <li class="htc-list-item flexbox">
+                            <div class="htc-icon">
+                                <img src="./img/contacts/mail.svg" alt="електронна пошта">
+                            </div>
+                            <div>hello.carrotlabs@gmail.com</div>
+                            </li>
+                        <li class="htc-list-item flexbox">
+                            <div class="htc-icon">
+                                <img src="./img/contacts/location.svg" alt="адреса">
+                            </div>
+                            <div>Київ, Україна</div>
+                        </li>
                     </ul>
+                    <div class="htc-social-icons">
+                        <ul class="flexbox">
+                            <li class="htc-social-icons-item">
+                                <img src="./img/contacts/htc-fb.svg" alt="fb">
+                            </li>
+                            <li class="htc-social-icons-item">
+                                <img src="./img/contacts/htc-inst.svg" alt="instagram">
+                            </li>
+                            <li class="htc-social-icons-item"> - слідкувати за нашими новинами</li>
+                        </ul>
+                    </div>
                 </div>
                 <div>
-                    <form class="htc-form" action="">
+                    <form class="htc-form">
                         <ul>
                             <li>
-                                <label for="name">Ваше Ім’я</label>
-                                <input type="text" id="name">
+                                <label for="name"></label>
+                                <input class="htc-form-in" type="text" id="name" placeholder="Ваше Ім’я">
 
                             </li>
                             <li>
-                                <label for="email">Пошта</label>
-                                <input type="text" id="email">
+                                <label for="email"></label>
+                                <input class="htc-form-in" type="text" id="email" placeholder="Пошта">
                             </li>
-                            <li></li>
+                            <li class="htc-form-message">
+                                <textarea name="user-message" class="htc-form-comment" placeholder="Повідомлення"
+                                rows="5"></textarea>
+                            </li>
                         </ul>
+                        <button class="send_btn">Написати</button>
                     </form>
                 </div>
 

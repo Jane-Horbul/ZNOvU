@@ -92,16 +92,35 @@ html {
     border-radius: 8px;
     text-transform: uppercase;
   }
-  .project_support_btn:hover {
+.project_support_btn:hover {
     background: var(--assent-header-menu-color);
     transition:.25s;
   }
-  .project_support_btn:active {
+.project_support_btn:active {
     background: var(--active-element);
     transition:.25s;
   }
 
-  .become-student_white-btn {
+.send_btn {
+    width: 365px;
+    height: 44px;
+    color: var(--white-color);
+    background: var(--assent-color);
+    border: none;
+    border-radius: 8px;
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.send_btn:hover {
+    background: var(--assent-header-menu-color);
+    transition:.25s;
+  }
+.send_btn:active {
+    background: var(--active-element);
+    transition:.25s;
+  }
+.become-student_white-btn {
     width: 186px;
     height: 56px;
     font-size: 18px;
@@ -1169,7 +1188,7 @@ padding-left: 112px;
     display: block;
     border: 0;
     margin: 0;
-    padding: 35px 0 35px 0;
+    padding: 70px 0 70px 0;
     height: 620px;
     background: var(--assent-color);
     margin-left: -10px;
@@ -1186,4 +1205,116 @@ padding-left: 112px;
 .htc-contacts-title {
     font-weight: 700;
     font-size: 30px;
+    margin: 0;
 }
+.htc-contacts {
+    margin-right: 110px;
+}
+.htc-form {
+    width: 445px;
+    height: 472px;
+    border-radius: 4px;
+    background: var(--white-color);
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.htc-form ul {
+    padding: 0;
+}
+.htc-form-in {
+    background: #F8F7F9;
+    width: 365px;
+    height: 56px;
+    border-radius: 8px;
+    border: none;
+    padding: 20px;
+    margin-bottom: 25px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    border: 1px solid transparent;
+    outline: transparent;
+}
+.htc-form-in:focus,
+.htc-form-in:hover {
+    transition: 0.25;
+    border: 1px solid var(--assent-color);
+}
+.htc-form-in:active {
+    transition: 0.25;
+    border: 1px solid var(--active-element);
+}
+
+::placeholder {
+    color: var(--main-text-color);
+    opacity: 1; /* Firefox */
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+  }
+  
+  ::-ms-input-placeholder { /* Edge 12 -18 */
+    color: var(--main-text-color);
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+  }
+  .htc-form-message {
+    background: #F8F7F9;
+    width: 365px;
+    height: 152px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 20px;
+    margin-bottom: 25px;
+  }
+  .htc-form-message:focus,
+  .htc-form-message:hover {
+    transition: 0.25;
+    border: 1px solid var(--assent-color);
+  }
+  .htc-form-comment {
+    width: 325px;
+    outline-color: #F8F7F9;
+    outline: none;
+    border-top-width: 0px;
+  border-top-style: solid;
+  border-left-width: 0px;
+  border-left-style: solid;
+  border-bottom-width: 0px;
+  border-bottom-style: solid;
+  border-right-width: 0px;
+  border-right-style: solid;
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  background: #F8F7F9;
+  }
+  textarea {
+    resize: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+  }
+  .htc-list {
+    margin-top: 70px;
+    padding-left: 0px;
+    font-size: 24px;
+    font-family: "Lora", serif;
+    font-weight: 500;
+    color: var(--main-text-color);
+  }
+  .htc-list-item {
+    margin-bottom: 30px;
+  }
+  .htc-icon {
+    margin-right: 20px;
+  margin-top: 8px;
+  }
+  .htc-social-icons {
+    margin-top: 70px;
+  }
+  .htc-social-icons ul {
+    padding: 0;
+  }
+  .htc-social-icons-item {
+    margin-right: 30px;
+  }
